@@ -20,7 +20,7 @@ const app = express();
 const httpServer = createServer(app);
 const PORT = process.env.PORT || 5000;
 
-const _dirname = path
+const _dirname = path.resolve()
 
 initializeSocket(httpServer);
 
