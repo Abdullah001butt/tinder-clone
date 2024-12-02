@@ -34,7 +34,7 @@ cd client
 npm install
 cd ..
 
-Set up environment variables: Create a .env file in the root directory and add the following:
+# Set up environment variables: Create a .env file in the root directory and add the following:
 
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
